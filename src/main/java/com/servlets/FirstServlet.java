@@ -29,6 +29,7 @@ public class FirstServlet implements Servlet {
 		System.out.println("Service method for Logic Processing");
 		res.setContentType("text/html");
 		PrintWriter writer = res.getWriter();
+		writer.println("<h1> First Servlet </h1>");
 		writer.println("Service method for Logic Processing");
 	}
 

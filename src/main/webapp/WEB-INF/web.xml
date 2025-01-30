@@ -26,8 +26,22 @@
   			<servlet-class>com.servlets.MyGenericServlet</servlet-class>
   </servlet>
   
+  
    <servlet-mapping>
 		  <servlet-name>MyGenericServlet</servlet-name>
 		    <url-pattern>/genericServlet</url-pattern>
+		  </servlet-mapping>
+		  
+		  
+		  
+		 <servlet>
+  			<servlet-name>MyHttpServlet</servlet-name>
+  			<servlet-class>com.servlets.MyHttpServlet</servlet-class>
+  		</servlet>
+  
+  
+   <servlet-mapping>
+		  <servlet-name>MyHttpServlet</servlet-name>
+		    <url-pattern>/httpServlet</url-pattern>
 		  </servlet-mapping>
 </web-app>

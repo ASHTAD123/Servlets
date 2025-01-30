@@ -15,7 +15,7 @@ public class MyGenericServlet extends GenericServlet{
 
 		PrintWriter writer = res.getWriter();
 		res.setContentType("text/html");
-		writer.println("Service method called from MyGenericServlet ");
+		writer.println(" <h3> Service method called from MyGenericServlet </h3>");
 		
 	}
 
